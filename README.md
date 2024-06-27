@@ -85,7 +85,7 @@ def play(eleccion_jugador):
     
     if resultado == "¡Ganaste!":
         contador_victorias += 1
-    else:
+    elif resultado == "Perdiste":
         contador_victorias = 0
 
     contador_label.config(text=f"Victorias: {contador_victorias}")
