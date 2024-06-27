@@ -192,6 +192,11 @@ pantalla_juego: Contiene el contador de victorias, opciones de elección (botone
 
 ## Elementos de la Interfaz
 
+```python
+result_label = tk.Label(pantalla_juego, text="")  # Etiqueta para mostrar el resultado de la partida
+result_label.pack(pady=20)
+```
+
 Etiquetas: contador_label, result_label
 
 Propósito: Mostrar el número de victorias y el resultado de la partida actual.
